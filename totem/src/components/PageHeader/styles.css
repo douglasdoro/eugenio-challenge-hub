@@ -1,0 +1,21 @@
+.page-header {
+  display: flex;
+  height: 100px;
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-header-back {
+  width: 5%; 
+}
+
+.page-header-logo { 
+  width: 10%; 
+}
+
+.header-title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+

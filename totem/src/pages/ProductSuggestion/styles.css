@@ -1,0 +1,21 @@
+#page-suggestions-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.product-buttons {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  width: 25.1%;
+  background-color: #FFF ;
+  box-shadow: 8px 8px 5px rgb(0,0,0, 0.3);
+  margin-top: 70px;
+  padding: 2rem;
+}
+
+

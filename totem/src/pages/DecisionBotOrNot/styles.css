@@ -1,0 +1,36 @@
+#page-DecisionBotOrNot-content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.decision-buttons {
+  width: 80%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 20px 20px 20px rgb(0,0,0, 0.5);
+  
+}
+
+.decision-buttons a {
+  width: 100%;
+  font-weight: bold;
+  font-size: 5rem;
+  color: #fff; 
+  text-decoration: none; 
+}
+
+.decision-buttons.yes {
+  background-color: #F2DA82;
+}
+
+.decision-buttons.no {
+  margin-top: 4rem ;
+  background-color: #2C0F47;
+}

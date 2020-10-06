@@ -1,0 +1,51 @@
+#page-categories-content {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.category-buttons {
+  width: 40%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 20px 20px 20px rgb(0,0,0, 0.5);
+  
+}
+
+.category-buttons a {
+  width: 100%;
+  font-weight: bold;
+  font-size: 5rem;
+  text-decoration: none; 
+  color: #fff; 
+}
+
+.category-buttons.perfumes {
+  background-color: #772C22;
+}
+
+.category-buttons.rosto {
+  background-color: #F2DA82;
+}
+
+.category-buttons.rosto a {
+  color: #000; 
+}
+
+.category-buttons.corpo {
+  background-color: #B18762;
+}
+
+.category-buttons.banho {
+  background-color: #F3ECE0;
+}
+
+.category-buttons.banho a {
+  color: #000; 
+}

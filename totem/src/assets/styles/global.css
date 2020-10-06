@@ -1,0 +1,39 @@
+:root {
+  --color-background: #F7F7F7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  font-size: 60%;
+  font-family: 'Montserrat', sans-serif;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: var(--color-background);
+}
+
+#root {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+body,
+input,
+button,
+textarea {
+  font-size: 1.6rem;
+  color: var(--color-text-base);
+}
+
+.container {
+  max-width: 1024px;
+  
+}

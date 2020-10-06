@@ -1,0 +1,42 @@
+#page-checkout-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 80%;
+}
+
+.page-checkout-box {
+  width: 70%; 
+  padding: 2rem; 
+  display: flex;
+  justify-content: space-around; 
+  background-color: #FFF;
+  box-shadow: 8px 8px 5px rgb(0,0,0, 0.3);
+  margin-top: 70px;
+  padding: 2rem;
+}
+
+.page-checkout-image, .page-checkout-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-checkout-image {
+  width: 40%;
+}
+
+.page-checkout-details {
+  width: 50%; 
+}
+
+.page-checkout-details span {
+  font-size: 2rem;
+  color: #F29D4B;
+}
+
+.page-checkout-details p {
+  font-size: 1.8rem;
+  margin: 1.5rem 0;
+}
+

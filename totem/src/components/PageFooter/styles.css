@@ -1,0 +1,12 @@
+.page-footer {
+  display: flex;
+  height: 100px;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.page-footer a {
+  text-decoration: none;
+  font-size: 2.4rem;
+  color: #000; 
+}

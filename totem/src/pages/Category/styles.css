@@ -1,0 +1,29 @@
+#page-category-content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.category-buttons {
+  width: 50%;
+  height: 20%;
+  background-color: #6A2A0E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 30px;
+  box-shadow: 20px 20px 20px rgb(107,42,15, 0.5);
+  margin-top: 4rem; 
+  
+}
+
+.category-buttons a {
+  width: 100%;
+  font-weight: bold;
+  font-size: 5rem;
+  color: #fff; 
+  text-decoration: none; 
+}

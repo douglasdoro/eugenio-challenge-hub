@@ -1,0 +1,40 @@
+
+#page-landing-content {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#page-landing-content .buttons-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#page-landing-content .buttons-container a {
+  width: 100%;
+  font-weight: bold;
+  font-size: 5rem;
+  color: #fff; 
+  text-decoration: none; 
+  border-radius: 30px;
+  box-shadow: 20px 20px 20px rgb(0,0,0, 0.5);
+  height: 30%;
+  height: 20%;
+  padding-top: 4rem;
+}
+
+#page-landing-content  .buttons-container .start {
+  background-color: #F2DA82;
+}
+
+#page-landing-content  .buttons-container .instructions  {
+  margin-top: 4rem ;
+  background-color: #2C0F47;
+}

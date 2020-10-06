@@ -1,0 +1,36 @@
+.product-category, .product-name, 
+.product-name, .product-price-off {
+  margin-top: 0.5rem;
+}
+
+.product-buttons .product-category {
+  font-size: 1.8rem;
+}
+
+
+.product-buttons .product-name {
+  font-size: 1.8rem;
+  color: #000; 
+}
+
+.product-buttons .product-price-origin {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  text-decoration-line: line-through
+}
+
+.product-buttons .product-price-off {
+  font-size: 2.4rem;
+  color: #F29D4B; 
+}
+
+.product-buttons  .product-details {
+  color: #fff; 
+  background-color: #F29D4B;
+  width: 80%;
+  margin-top: 1.5rem;
+  font-size: 1.8rem;
+  text-decoration: none;
+  padding: 10px; 
+}
+

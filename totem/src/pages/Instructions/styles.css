@@ -1,0 +1,57 @@
+#page-instructions-content {
+  width: 1024px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-bottom: 76px;
+}
+
+.step-buttons {
+  width: 25.1%;
+  height: 317px;
+  background-color: #F2DA82 ;
+  border-radius: 30px;
+  box-shadow: 20px 20px 20px rgb(0,0,0, 0.5);
+  margin-top: 70px;
+  position: relative; 
+}
+
+.step-number {
+  display: flex;
+  width: 113px;
+  height: 113px;
+  background-color: #2C0F47;
+  color: #fff; 
+  font-size: 5rem;
+  font-weight: 500;
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: -40px;
+  top: -50px;
+}
+
+.step-text {
+  color: #000000;
+  font-weight: 400;
+  font-size: 2.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 3rem;
+}
+
+.step-next {
+  background-color: #2C0F47;
+  color: #fff; 
+}
+
+.step-icon-next {
+  width: 50%; 
+}
+
+
