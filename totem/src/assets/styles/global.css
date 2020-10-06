@@ -34,6 +34,8 @@ textarea {
 }
 
 .container {
+  min-width: 1024px;
   max-width: 1024px;
-  
+
+  height: 768px; 
 }

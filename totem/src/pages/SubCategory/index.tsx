@@ -10,7 +10,9 @@ function SubCategory() {
   return(
     <div id="page-sub_category" className="container">
       <PageHeader 
-        title="Escolha a intensidade da fragância">
+        title="Escolha a intensidade da fragância"
+        showBackLink={true}
+      >
       </PageHeader>
       <div id="page-sub_category-content">
         <div className="sub_category-buttons">
