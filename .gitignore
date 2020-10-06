@@ -2,3 +2,8 @@
 /totem/node_modules
 /totem/src/service
 /totem/build
+/SensorControl/pio
+/SensorControl/vscode/.browse.c_cpp.db*
+/SensorControl/vscode/c_cpp_properties.json
+/SensorControl/vscode/launch.json
+/SensorControl/vscode/ipch
